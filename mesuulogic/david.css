@@ -1,0 +1,242 @@
+
+/* GENERAL CODES */
+    
+    
+    
+@media (max-width: 750px) {
+  .video-grid {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
+
+
+
+/* HEADER CODES */
+
+    .mike {
+      color: black;
+      text-align: center;
+      font-family: Arial black, roboto;
+      background-color:rgb(173, 119, 57);
+      padding: 20px 10px 20px 10px;
+      margin-left: 300px;
+      margin-right: 300px;
+      border-radius: 40px;
+      min-width: 300px;
+      flex-shrink: 0;
+
+
+    }
+
+    .header-div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(173, 119, 57);
+      margin-top: 20px;
+      margin-left: 20px;
+      padding: 20px;
+      border-radius: 40px;
+      min-width: 600px;
+      flex-shrink: 0;
+
+      
+      
+  
+    }
+
+    /* Buttons */
+
+    .home-button {
+        background-color: rgb(255, 216, 20);
+         color: black;
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         font-size: 14px;
+         font-family: Arial;
+         border-color: none;
+         border-style: solid;
+         border-radius: 19px;
+         cursor: pointer;
+         transition: background-color 0.15s, color 0.15s;
+    }
+
+    .home-button:hover {
+      background-color: rgb(255, 200, 20);
+      color: black;
+  }
+
+
+
+  .staff-button {
+      background-color: rgb(255, 216, 20);
+       color: black;
+       padding-left: 50px;
+       padding-right: 50px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       font-size: 14px;
+       font-family: Arial;
+       border-color: none;
+       border-style: solid;
+       border-radius: 19px;
+       margin-left: 10px;
+       cursor: pointer;
+       transition: background-color 0.15s, color 0.15s;
+  }
+
+  .staff-button:hover {
+    background-color: rgb(255, 200, 20);
+    color: black;
+
+  }
+
+  .services-button {
+    
+      background-color: rgb(255, 216, 20);
+       color: black;
+       padding-left: 50px;
+       padding-right: 50px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       font-size: 14px;
+       font-family: Arial;
+       border-color: none;
+       border-style: solid;
+       border-radius: 19px;
+       margin-left: 10px;
+       cursor: pointer;
+       transition: background-color 0.15s, color 0.15s;
+  }
+
+  .services-button:hover {
+    background-color: rgb(255, 200, 20);
+    color: black;
+
+  }
+
+
+  .students-button {
+
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    border-color: none;
+    border-style: solid;
+    border-radius: 19px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.students-button:hover {
+ background-color: rgb(255, 200, 20);
+ color: black;
+  }
+  
+    
+
+    
+
+
+
+
+
+/* BODY CODES */
+
+
+    .para1 {
+      font-size: 18px;
+      font-family: Roboto, Arial;
+      margin-left: 10px;
+      
+    }
+
+    .application-div {
+      background-color: rgb(173, 119, 57);
+    } 
+    .apply {
+      background-color: brown;
+    }
+
+
+    .fill {
+      margin-left: 10px;
+    }
+
+
+    .submit-button {
+      background-color: white;
+      color: rgba(108, 117, 125);
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 11px;
+      font-style: bold;
+      font-family: Arial;
+      margin-left: 40px;
+      border-color: rgb(108, 117, 125);
+      border-style: solid;
+      border-radius: 3px;
+      border-width: 1px;
+      font-weight: 10px;
+      cursor: pointer;
+      transition: background-color 0.18s, color 0.18s;
+     }
+ 
+     .submit-button:hover {
+         color: white;
+      background-color: black;
+     }
+    
+
+
+
+
+
+/* FOOTER CODES */
+
+    .trademark {
+       text-align: center;
+       background-color: black;
+       color: white;
+       padding-left: 50px;
+       padding-right: 50px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       font-size: 14px;
+       font-family: Arial;
+       border-color: none;
+       border-style: none;
+       border-radius: 19px;
+       margin-top: 50px;
+       margin-left: 400px;
+       margin-right: 400px;
+       min-width: 200px;
+       max-width: 350px;
+      
+    }
+
+    .footer-div {
+      background-color: brown;
+      border-style: none;
+      margin-top: 20px;
+
+    }
