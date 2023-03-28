@@ -1,5 +1,5 @@
 # dlegendiii.github.io
-My websites
+My websites:
 These are basic websites created using HTML and CSS
 WEBSITES;
 1. A clone YouTube site; link: https://dlegendiii.github.io/YouTube
