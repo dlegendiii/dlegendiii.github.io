@@ -1,0 +1,115 @@
+/* HOME CODES */
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* NAV BAR CODES */
+.p1 {
+  color: orange;
+  font-size: 20px;
+  
+}
+
+/* BODY CODES */
+
+.menu_section h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+
+.menu_section h4 {
+  color: #7d0909;
+  font-weight: 600;
+  font-family: 'segoe ui', sans-serif;
+}
+.menu_section p {
+  font-family: 'segoe ui', sans-serif;
+  font-weight: 500;
+}
+.delivery_section h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.delivery_section h4 {
+  color: #000;
+  font-weight: 600;
+  font-family: 'segoe ui', sans-serif;
+}
+.delivery_spacing {
+  padding-left: 50px;
+}
+.contact_section h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.contact_section h4 {
+  color: #000;
+  font-weight: 600;
+  font-family: 'segoe ui', sans-serif;
+}
+.contact_section span {
+  color: #000;
+  font-weight: 400;
+  font-family: 'segoe ui', sans-serif;
+}
+
+.general {
+  background: red;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 5px;
+}
+
+
+.footer2 {
+  color:#fff;
+  background: black;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PRESTO CODES */
+
+
+.body1 {
+  background-color: black;
+  }
+
+
+
+
