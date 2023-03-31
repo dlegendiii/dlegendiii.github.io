@@ -47,7 +47,6 @@ body {
 .col-lg-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-
   column-gap: 30px;
   row-gap: 30px;
   margin-top: 40px;
@@ -125,8 +124,8 @@ body {
 
   @media (max-width: 750px) {
     .col-lg-3 {
-        grid-template-columns: 1fr 1fr;
-    }
+        grid-template-columns: 1fr;
+     }
 }
 
 @media (min-width: 1000px) {
