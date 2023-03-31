@@ -17,10 +17,11 @@ body {
 /* BODY CODES */
 
 .menu_section h2 {
-  text-align: center;
   font-weight: bold;
   padding: 20px 0;
   text-transform: uppercase;
+  text-align: center;
+  
 }
 
 
@@ -32,7 +33,28 @@ body {
 .menu_section p {
   font-family: 'segoe ui', sans-serif;
   font-weight: 500;
+  
 }
+
+.menu-heading-div {
+  display: grid;
+  align-items: center;
+}
+
+
+
+
+.col-lg-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
 .delivery_section h2 {
   text-align: center;
   font-weight: bold;
@@ -75,8 +97,6 @@ body {
 
 
 
-
-
 .footer {
   color: #fff;
   text-align: center;
@@ -90,16 +110,8 @@ body {
   background: black;
   text-align: center;
   padding: 10px 0;
-  margin-top: 25px;
+  margin-top: 60px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -111,5 +123,16 @@ body {
   }
 
 
+  @media (max-width: 750px) {
+    .col-lg-3 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
+@media (min-width: 1000px) {
+    .col-lg-3 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+ 
 
