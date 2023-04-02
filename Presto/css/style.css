@@ -1,6 +1,11 @@
 /* HOME CODES */
 body {
+  background-image: url("pizza.jpg");
+  background-repeat: no-repeat;
   padding-top: 50px;
+  font-family: 'Playfair Display';
+  font-weight: 300;
+  
 }
 .starter-template {
   padding: 40px 15px;
@@ -25,12 +30,7 @@ body {
   text-align: center;
   border-style: none;
   margin-top: 20px;
-  border-radius: 15px;
-  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.301);
-  padding-left: 2px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  
+ 
 }
 
 
@@ -78,13 +78,7 @@ body {
   border-style: none;
     margin-top: 10px;
     border-radius: 15px;
-    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.301);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    min-width: 540px;
-    
+   
 }
 .delivery_section h2 {
   text-align: center;
@@ -103,17 +97,10 @@ body {
 
 
 .contact_section {
-  display: grid;
   border-style: none;
   margin-top: 10px;
-  border-radius: 15px;
-  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.301);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: 50px;
-  min-width: 540px;
+  font-family: 'Playfair Display';
+  
    
 }
 .contact_section h2 {
@@ -121,6 +108,8 @@ body {
   font-weight: bold;
   padding: 20px 0;
   text-transform: uppercase;
+  font-family: 'Playfair Display';
+  
 }
 .contact_section h4 {
   color: #000;
@@ -139,6 +128,54 @@ body {
   text-align: center;
 }
 
+
+/* ABOUT US PAGE */
+
+.about-us-div {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+
+}
+
+.about-us-section h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-family: 'Playfair Display';
+}
+
+
+.team-div {
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+
+.team-section h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-family: 'Playfair Display';
+}
+
+
+.teammate-pics {
+  border-style: none;
+  border-radius: 14px;
+}
+
+
+.s {
+  font-weight: 600;
+}
 
 
 
@@ -167,7 +204,10 @@ body {
 
 
 .body1 {
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
   background-color: black;
+  font-family: 'Playfair Display';
   }
 
 
